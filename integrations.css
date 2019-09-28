@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/HelveticaNeueLight.woff") format("woff");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategrey
+}
+
+body {
+    padding: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+#container-h1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+h1 {
+    font-size: 3.2em;
+    color: aliceblue;
+    font-family: monospace;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    height: auto;
+}
+
+#ul-links {
+    margin: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    scrolling="auto"
+}
+
+#ul-links li {
+    background-color: aqua;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+}
+
+#li-origami {
+    background-image: url(integrations-html/origami/img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica Neue Light';
+    padding-top: 0px;
+}
+
+#li-origami a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#li-createPro {
+    background-image: url(integrations-html/createPro/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bitter';
+}
+
+#li-createPro a {
+    text-decoration: none;
+    color: orange;
+}
+
+#li-audiotheme {
+    background-image: url(integrations-html/audiotheme/img/nowell-featured-image-1038x576.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+
+#li-audiotheme a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: -2px;
+}
+
+#li-audiotheme a span {
+    color: red;
+}
+
+#li-donut {
+    background-image: url(integrations-html/donutWhole/images/donut-shoppe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bitter';
+}
+
+#li-donut a {
+    text-decoration: none;
+    color: black;
+}
+
+#li-deviating {
+    background-image: url(integrations-html/deviating/elements/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bitter';
+}
+
+#li-deviating a {
+    text-decoration: none;
+    color: white;
+}
+
+#li-obsidian {
+    background-image: url(integrations-html/obsidian/screenshots/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+
+#li-obsidian a {
+    text-decoration: none;
+    color: gainsboro;
+}
+#li-obsidian span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+#li-pastime {
+    background-image: url(integrations-html/pastime/images/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:fantasy;
+}
+
+#li-pastime a {
+    text-decoration: none;
+    color:darkslateblue;
+}
