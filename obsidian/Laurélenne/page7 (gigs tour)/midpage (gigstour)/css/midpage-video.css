@@ -1,0 +1,90 @@
+
+/* .....................general..................... */
+
+
+*{
+margin:0 auto;
+padding:0 auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+}
+
+/* ..........................Upcoming gigs......................... */
+
+#tour{
+    color:white;
+}
+
+#tour h2{
+    font-size: 30px;
+    margin-bottom:30px;
+}
+
+
+#tour #dates .concerts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:70px;
+    border-bottom:2px solid;
+    border-color: rgba(211, 211, 211, 0.31);
+}
+
+#tour #dates .concerts:first-child{
+    border-top:2px solid;
+    border-color: rgba(211, 211, 211, 0.31);
+
+}
+
+
+#tour #dates .concerts .jour, #tour #dates .concerts .ville, #tour #dates .concerts .lieu{
+margin:0 ;
+text-align:left;
+font-size: 25px;
+color: rgba(255, 255, 255, 0.7);
+
+}
+
+#tour #dates .concerts p{
+    margin:25px;
+}
+
+ 
+
+#tour #dates .concerts .ville{
+    width:40%;
+    font-weight: 600;
+
+
+}
+
+#tour #dates .concerts .jour{
+
+    display:flex;
+    width:10%;
+}
+
+#tour #dates .concerts .lieu{
+
+    width:30%;
+}
+
+#tour #dates .concerts .jour .bb{
+font-weight: 600;
+color:white;
+}
+
+#viewall{
+margin-top:20px;
+display:flex;
+font-weight: 600;
+
+opacity: 0.7;
+}
+
+
+
+

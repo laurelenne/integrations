@@ -1,0 +1,258 @@
+/*Couleurs :
+- Jaune : #cfa205
+- texte gris : #7a7a7a
+- fond de la barre sociale : #e8e8e8 
+
+Typos :
+Les fonts utilisés sur le site sont :
+- 'Josefin Sans' (https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Sans) font-family: 'Josefin Sans', sans-serif;
+- 'Bitter' (https://www.google.com/fonts#UsePlace:use/Collection:Bitter) font-family: 'Bitter', serif;
+- La taille du titre principal est de 133px
+- Les polices des blocs de texte sous les images sont de 14px
+- Les autres titres sont à 18px
+
+Image de fond :
+- L'image de fond est le fichier : bg.jpg
+- Elle doit être fixe et occuper le plus de place possible (pensé à la valeur "cover" pour la propriété background-size)
+- note : la maquette a un petit bug sur le fond.
+
+Icônes sociales :
+- Vous pouvez utiliser des fonts pour faire les icônes sociales
+- Par exemple : http://drinchev.github.io/monosocialiconsfont/
+*/
+
+/*FONT-FACE ICONE FA */
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('font/MonoSocialIconsFont-1.10.eot');
+    src: url('font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+        url('font/MonoSocialIconsFont-1.10.woff') format('woff'),
+        url('font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+        url('font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('font/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol,
+a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+/*Général*/
+html {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+#body-container {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: aliceblue;
+    height: 1050px;
+    min-height: 1100px;
+}
+
+/*Typographie*/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 100;
+    color: #cfa205;
+    margin: auto;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+
+/*CorpsduSite*/
+
+header {
+    height: 380px;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding: inherit;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav a,
+a:visited {
+    text-decoration: none;
+    color: #ACA499;
+    font-weight: bolder
+}
+
+nav a:hover {
+    color: #cfa205;
+}
+
+#hero {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 180px;
+}
+
+#description {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+#description ul {
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style-position: inside;
+    height: 40px;
+    padding-left: inherit;
+
+}
+
+#description ul li {
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #cfa205;
+    font-weight: 800; 
+    font-family: 'Josefin', serif;
+}
+
+#personal {
+    list-style: none;
+}
+
+#nav-social-icon {
+    display: flex;
+    background-color: #e8e8e8;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#banner-text {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter';
+    line-height: 35px;
+    font-weight: bold;
+    color: grey
+}
+
+#br {
+    height: 2px;
+    background-color: gainsboro;
+    margin-bottom: 60px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+article {
+    width: 250px;
+    font-size: 14px;
+    font-family: 'Bitter';
+    line-height: 22px;
+    padding: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+article p {
+    text-align: justify;
+}
+
+#nav-social-icon {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #e8e8e8;
+}
+
+.fa {
+    font-size: 20px;
+    color: darkgrey;
+    border : 3px grey solid;;
+    border-color: darkgrey;
+    border-radius: 100%;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/*Need to come back !*/
+.fa-backspace {
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    top: 0px;
+    right: 20%;
+    background-color: darkslategray;
+    box-shadow: 0px 0px 10px 2px darkslategray;
+    padding: 20px 20px 8px 12px;
+    border-radius: 0% 0% 20% 20% ;
+}

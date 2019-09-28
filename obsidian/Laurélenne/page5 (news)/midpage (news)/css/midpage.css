@@ -1,0 +1,110 @@
+body {
+    background-color: dimgrey;
+}
+#sections {
+    display: flex;
+}
+section {
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+}
+.article {
+    margin-bottom: 45px;
+}
+h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+        
+}
+.datenews {
+    color: white;
+    font-size: 10px;
+}
+p {
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+.source {
+    margin-top: 20px; 
+}
+.source #linksource {
+    text-decoration: underline;
+}
+figure {
+    margin: 0;
+}
+figure img{
+
+    width: 100%;
+
+}
+#sectionright {
+margin-left: 50px;
+width: 22%;
+margin-top: 25px;
+}
+#sectionright #searchbar {
+    background-color: rgba(68,68,68,0.5);
+    border: grey 1px solid;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+#searchbar::placeholder {
+    color : darkgrey;
+}
+
+h4 {
+    color:white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+h5 {
+    color:white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.datenewsright {
+    color: darkgrey;
+}
+#line-grey {
+    height: 1px;
+    width: 30%;
+    background-color: darkgray;
+}
+
+#boxnum {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#one {
+    padding: 2px;
+    width: 40px;
+    background-color: rgba(140,140,140);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+#two {
+    padding: 2px;
+    width: 40px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+#line-grey2 {
+    height: 1px;
+    width: 100%;
+    border-top: 1px darkgray solid;
+}

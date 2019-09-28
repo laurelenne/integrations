@@ -1,0 +1,65 @@
+
+
+/* -----------------/ CSS MIDPAGE-ABOUT + FOOTER /----------------- */
+
+body{
+    font-family: 'open sans',Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+h3{
+    color: white;
+    letter-spacing: 2px;
+}
+.midpage-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1100px;
+    margin: 0 auto;
+}
+.midpage-about p{
+    color: #bdbdbd;
+}
+.container1,.container2,.container3{
+    width: 340px;
+    height: 380px;
+}
+figure{
+    margin: 0 auto;
+}
+.linegrey{
+    width: 1100px;
+    height: 1px;
+    background-color: rgba(211, 211, 211, 0.308);
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -40px;
+    letter-spacing: 10px;
+}
+#pfooter{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+#date{
+    font-weight: 100;
+}
+#titre{
+    font-weight: bold;
+}
+.container1 p{
+    line-height: 28px;
+}
+.social a i{
+    color: white;
+    font-size: 28px;
+}
+
+/* -----------------/ FIN /----------------- */

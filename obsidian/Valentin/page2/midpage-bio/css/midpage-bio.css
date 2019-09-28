@@ -1,0 +1,35 @@
+
+/* .....................general..................... */
+
+
+*{
+margin:0 auto;
+padding:0 auto;
+}
+
+img{
+    width: 100%;
+    height:100%;
+}
+
+
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+}
+
+/* ...................................................... */
+
+#bio{
+    margin:5% 25% 5% 25%;
+}
+
+#bio p{
+    margin-top:5%;
+color: rgba(255, 255, 255, 0.7);
+
+font-size:24px;
+}
