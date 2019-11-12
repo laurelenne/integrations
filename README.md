@@ -1,2 +1,2 @@
 # Intégrations
-## https://laurelenne.github.io/integrations
+## http://laurelenne.github.io/integrations
