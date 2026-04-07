@@ -60,7 +60,7 @@ a.symbol:before {
 html {
     display: flex;
     justify-content: center;
-    background-image: url("../img/bg.jpg");
+    background-image: url("img/bg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
