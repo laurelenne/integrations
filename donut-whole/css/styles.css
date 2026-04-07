@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans';
-    background-image: url("donut-whole/images/bg-tile.gif");
+    background-image: url("../images/bg-tile.gif");
     background-repeat: repeat;
 }
 
@@ -35,7 +35,7 @@ h2 {
 
 h1 {
     text-align: center;
-    background-image: url("donut-whole/images/header-divider.png");
+    background-image: url("../images/header-divider.png");
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 19px;
@@ -74,7 +74,7 @@ a:visited {
 a:hover {}
 
 hr {
-    content: url(/images/divider.png);
+    content: url("../images/divider.png");
     height: auto;
     border: none;
     margin-top: 4%;
@@ -111,7 +111,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-image: url("donut-whole/images/tiny-donut.png");
+    background-image: url("../images/tiny-donut.png");
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 25px;
@@ -120,13 +120,13 @@ header nav ul li a:hover {
 }
 
 header nav ul li#logo a {
-    content: url("donut-whole/images/logo.png");
+    content: url("../images/logo.png");
     height: 7em;
 
 }
 
 header nav ul li#logo a:hover {
-    content: url("donut-whole/images/logo-hover.png");
+    content: url("../images/logo-hover.png");
     background: transparent;
     padding-top: 0;
 }
@@ -135,7 +135,7 @@ header nav ul li#logo a:hover {
 /* Hero */
 
 #hero {
-    background-image: url("donut-whole/images/bg-tile-yellow.gif");
+    background-image: url("../images/bg-tile-yellow.gif");
 }
 
 #hero .container {
@@ -149,7 +149,7 @@ header nav ul li#logo a:hover {
 }
 
 #hero .large-ribbon {
-    content: url("donut-whole/images/fresh-whole-ingredients.png");
+    content: url("../images/fresh-whole-ingredients.png");
     position: relative;
     top: -190px;
     right: 150px;
@@ -167,7 +167,7 @@ color :#4b2707;
 #best-donut {
     width: 35%;
     float: right;
-    background-image: url("donut-whole/images/award.png");
+    background-image: url("../images/award.png");
     background-repeat: no-repeat;
     padding-left: 118px;
     background-position: left;
@@ -189,14 +189,14 @@ color :#4b2707;
 #news-events article {}
 
 #news-events article.news {
-    background-image: url("donut-whole/images/icon-news.png");
+    background-image: url("../images/icon-news.png");
     background-repeat: no-repeat;
     padding-left: 50px;
     color : #4b2707;
 }
 
 #news-events article.event {
-    background-image: url("donut-whole/images/icon-calendar.png");
+    background-image: url("../images/icon-calendar.png");
     background-repeat: no-repeat;
     padding-left: 50px;
     color: #4b2707;
@@ -218,7 +218,7 @@ color :#4b2707;
 /* Footer */
 
 footer.main {
-    background-image: url("donut-whole/images/bg-tile-brown.gif");
+    background-image: url("../images/bg-tile-brown.gif");
     background-repeat: repeat;
     height: 100%;
     width: 100%;
@@ -236,7 +236,7 @@ footer.main a:hover {
 }
 
 #uncopyright {
-    background-image: url("donut-whole/images/icon-recycle.png");
+    background-image: url("../images/icon-recycle.png");
     background-repeat: no-repeat;
     background-position:left;
     float: left;
@@ -253,7 +253,7 @@ footer.main a:hover {
     float: right;
     text-align: center;
     height: 100%;
-    background-image: url("donut-whole/images/icon-apple.png");
+    background-image: url("../images/icon-apple.png");
     background-repeat: no-repeat;
     background-position:left;
     padding-left: 50px;
